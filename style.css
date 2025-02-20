@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Crimson Text";
+    background-color: #0FC2C0;
+}
+header{
+    width: 100%;
+    background-color: #023535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(70, 70, 70);
+    position: fixed;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav>ul>li{
+    margin: 0 7px 0 7px;
+}
+nav>ul>li>a{
+    background-color: #015958;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(70, 70, 70);
+    font-size: 20px;
+}
+nav>ul>li>a:hover{
+    background-color: #00504e;
+    padding: 18px;
+}
+.logo{
+    padding: 30px;
+    font-size: 25px;
+}
+.logo>a{
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
