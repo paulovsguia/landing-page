@@ -82,3 +82,38 @@ footer{
     height: 100px;
     background-color: #023535;
 }
+@media screen and (max-width:720px) {
+    .logo{
+        padding: 15px;
+    }
+    .logo>a{
+        font-size: 20px;
+    }
+    nav>ul>li>a{
+        padding: 10px;
+        font-size: 12px;
+    }
+    nav>ul>li{
+        margin: 0 3px 0 3px;
+    }
+
+    .container{
+        margin: 70px auto 0 auto;
+        width: 80%;
+    }
+    .content{
+        width: 88%;
+    }
+    .content>h1{
+        font-size: 25px;
+    }
+    .content>h2{
+        font-size: 18px;
+    }
+    .content>p{
+        font-size: 15px;
+    }
+    footer{
+        height: 65px;
+    }
+}
