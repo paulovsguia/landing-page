@@ -94,6 +94,73 @@ nav>ul>li>a:hover{
     margin: 10px;
     border-radius: 50px;
 }
+.container3{
+    margin: 160px auto 0 auto;
+    width: 80%;
+    min-height: 100vh;
+}
+.inscricao{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 840px;
+    background-color: #00504e;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+.inscricao>h1{
+    font-size: 60px;
+    padding: 40px 0 15px 0;
+}
+.login-form{
+    font-size: 35px;
+    margin-bottom: 25px;
+    padding: 30px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.login-form>input{
+    width: 670px;
+    height: 40px;
+    color: #023535;
+    font-weight: normal;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login-form>input:hover{
+    background-color: rgba(255, 255, 255, 0.897);
+}
+#telefone{
+    width: 300px;
+}
+#username{
+    width: 300px;
+}
+#password{
+    width: 450px;
+}
+.button{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.button>button{
+    width: 450px;
+    height: 80px;
+    background-color: #0c5f39;
+    color: white;
+    font-size: 30px;
+    border: solid white 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+.button>button:hover{
+    background-color: #0d683f;
+    cursor: pointer;
+}
 footer{
     height: 100px;
     background-color: #023535;
@@ -159,5 +226,76 @@ footer{
     }
     .content2{
         margin:-45px auto 15px auto;
+    }
+}
+@media screen and (max-width:1025px){
+    .container3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .inscricao{
+        width: 500px;
+        height: 700px;
+        margin-bottom: 65px;
+    }
+    .login-form{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .login-form>input{
+        width: 400px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .button>button{
+        width: 370px;
+        height: 60px;
+        font-size: 25px;
+    }
+    .inscricao>h1{
+        font-size: 45px;
+        padding: 30px 0 10px 0;
+    }
+}
+@media screen and (max-width:720px){
+    .container3{
+        margin: 70px auto 0 auto;
+    }
+    .inscricao{
+        width: 300px;
+        height: 570px;
+        margin-bottom: 45px;
+    }
+    .login-form{
+        font-size: 20px;
+        margin-bottom: 0;
+        width: 250px;
+    }
+    .login-form>input{
+        width: 230px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .button{
+        margin-bottom: 35px;
+    }
+    .button>button{
+        width: 230px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .inscricao>h1{
+        font-size: 35px;
+        padding: 20px 0 10px 0;
+    }
+    #telefone{
+        width: 170px;
+    }
+    #username{
+        width: 170px;
+    }
+    #password{
+        width: 200px;
     }
 }

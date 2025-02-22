@@ -22,6 +22,26 @@
             </ul>
         </nav>
     </header>
+    <div class="container3">
+        <div class="inscricao">
+            <h1>Inscreva-se</h1>
+            <form action="#" method="post" class="login-form">
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" required><br>
+                <label for="telefone">Telefone</label><br>
+                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{11}" required oninput="this.value=this.value.replace(/[^0-9]/g,'')"><br>
+                <label for="username">Usuário</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Senha</label><br>
+                <input type="password" id="password" name="password" required><br>
+            </form>
+            <form class="button">
+                <button type="submit">Registrar-se</button><br>
+            </form>
+        </div>
+    </div>
     <footer></footer>
 </body>
 </html>
