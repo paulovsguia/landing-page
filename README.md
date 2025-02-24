@@ -1,1 +1,2 @@
 # landing-page
+Uma Landing Page é uma página web projetada especificamente para converter visitantes em leads ou clientes. Geralmente focada em um único objetivo, como capturar e-mails, promover um produto ou incentivar uma ação específica, a Landing Page elimina distrações e utiliza elementos estratégicos como chamadas para ação (CTAs), formulários, depoimentos e design otimizado para maximizar as conversões.
